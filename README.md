@@ -2,7 +2,7 @@
 
 This analysis looks at the current value of cryptocurrencies, stocks, and bonds held to determine if they can be used to fund an emergency account.  
 
-For retirement planning, to scenarios are modeled to determine the range of likely outcomes and if retirement is possible.
+For retirement planning, two scenarios are modeled to determine the range of likely outcomes and if retirement is possible.
 
 ## Technologies
 
@@ -31,7 +31,7 @@ pip install jupyterlab
 
 To view the analysis carried out in the notebook click `financial_planning_tools.ipynb` in the file directory of this repo, or click [here](https://github.com/jmischung/Emergency-and-Retirement-Planning/blob/main/financial_planning_tools.ipynb). To interact with the notebook run `jupyter lab` from the directory where `financial_planning_tools.ipynb` is located.  
 
-An API Key and Secret Key from Alpaca are both required if running the notebook locally. Click [here](https://app.alpaca.markets/signup) to create and Alpaca account and request an api key and secret key.
+An API Key and Secret Key from Alpaca are both required if running the notebook locally. Click [here](https://app.alpaca.markets/signup) to create an Alpaca account and request an api key and a secret key.
 
 ## Contributors
 
