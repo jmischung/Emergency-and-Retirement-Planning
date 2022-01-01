@@ -1,24 +1,37 @@
-# Project Title
+# Emergency and Retirement Planning
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This analysis looks at the current value of cryptocurrencies, stocks, and bonds held to determine if they can be used to fund an emergency account.  
+
+For retirement planning, to scenarios are modeled to determine the range of likely outcomes and if retirement is possible.
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This project leverages python 3.7 with the following packages:  
+
+ * [requests](https://pypi.org/project/requests/) - For querying APIs  
+ * [pandas](https://pandas.pydata.org/) - For analyzing data  
+ * [alpaca sdk](https://pypi.org/project/alpaca-trade-api/) - For querying stock and bond prices from [alpaca.markets](https://alpaca.markets/)  
+ * [jupyter](https://jupyter.org/) - For an IDE 
+ * `MCForecastTools` - For conducting monte carlo simulations
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Clone the repository and confirm that python 3.7 or greater, pandas, and jupyter are installed.
+
+```python
+pip install requests
+pip install pandas
+pip install alpaca-trade-api
+pip install jupyterlab
+```
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To view the analysis carried out in the notebook click `financial_planning_tools.ipynb` in the file directory of this repo, or click [here](https://github.com/jmischung/Emergency-and-Retirement-Planning/blob/main/financial_planning_tools.ipynb). To interact with the notebook run `jupyter lab` from the directory where `financial_planning_tools.ipynb` is located.
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.  
-
-- Josh Mischung: [josh@knoasis.io](josh@knoasis.io), [LinkedIn](https://www.linkedin.com/in/joshmischung/)
+Josh Mischung: [josh@knoasis.io](josh@knoasis.io), [LinkedIn](https://www.linkedin.com/in/joshmischung/)
 
 ## License
 
