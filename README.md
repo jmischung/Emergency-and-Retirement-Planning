@@ -8,6 +8,7 @@ For retirement planning, to scenarios are modeled to determine the range of like
 
 This project leverages python 3.7 with the following packages:  
 
+ * [dotenv](https://pypi.org/project/python-dotenv/) - For loading variables into the operating environment from .env files  
  * [requests](https://pypi.org/project/requests/) - For querying APIs  
  * [pandas](https://pandas.pydata.org/) - For analyzing data  
  * [alpaca sdk](https://pypi.org/project/alpaca-trade-api/) - For querying stock and bond prices from [alpaca.markets](https://alpaca.markets/)  
@@ -19,6 +20,7 @@ This project leverages python 3.7 with the following packages:
 Clone the repository and confirm that python 3.7 or greater, pandas, and jupyter are installed.
 
 ```python
+pip install python-dotenv
 pip install requests
 pip install pandas
 pip install alpaca-trade-api
@@ -27,7 +29,9 @@ pip install jupyterlab
 
 ## Usage
 
-To view the analysis carried out in the notebook click `financial_planning_tools.ipynb` in the file directory of this repo, or click [here](https://github.com/jmischung/Emergency-and-Retirement-Planning/blob/main/financial_planning_tools.ipynb). To interact with the notebook run `jupyter lab` from the directory where `financial_planning_tools.ipynb` is located.
+To view the analysis carried out in the notebook click `financial_planning_tools.ipynb` in the file directory of this repo, or click [here](https://github.com/jmischung/Emergency-and-Retirement-Planning/blob/main/financial_planning_tools.ipynb). To interact with the notebook run `jupyter lab` from the directory where `financial_planning_tools.ipynb` is located.  
+
+An API Key and Secret Key from Alpaca are both required if running the notebook locally. Click [here](https://app.alpaca.markets/signup) to create and Alpaca account and request an api key and secret key.
 
 ## Contributors
 
